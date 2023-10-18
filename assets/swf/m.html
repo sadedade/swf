@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Viewer</title>
+		<style>
+			#lol {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				height: 100vh;
+				background-color: black;
+				margin: 0;
+				color: aliceblue;
+				font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+			}
+		
+			#lol button {
+				color: black;
+				margin: 5px;
+				padding: 10px;
+				border-radius: 5px;
+				border: none;
+			}
+		</style>
+</head>
+
+<body style="background-color: black; margin: 0;">
+	<div id="lol">
+		<img src="1.png">
+		<h2>Eropharaoh android viewer</h2>
+		<button id="button1">America</button>
+		<button id="button2">Beth</button>
+		<button id="button3">Gloriosa</button>
+		<button id="button4">Grade</button>
+		<button id="button5">Lana</button>
+		<button id="button6">Lois</button>
+		<button id="button7">May</button>
+		<button id="button8">Mea</button>
+		<button id="button9">Regular</button>
+		<button id="button10">Skullgirl</button>
+		<button id="button11">Supergirl</button>
+		<button id="button12">Tylee</button>
+	</div>
+
+	<script>
+		// JavaScript to handle button click events and redirection
+		function redirectToHTMLPage(buttonNumber) {
+			window.location.href = 'name' + buttonNumber + '.html';
+		}
+
+		document.getElementById('button1').addEventListener('click', function () {
+			window.location.href = 'america.html';
+		});
+
+		document.getElementById('button2').addEventListener('click', function () {
+			window.location.href = 'beth.html';
+		});
+
+		document.getElementById('button3').addEventListener('click', function () {
+			window.location.href = 'gloriosa.html';
+		});
+
+		document.getElementById('button4').addEventListener('click', function () {
+			window.location.href = 'grade.html';
+		});
+
+		document.getElementById('button5').addEventListener('click', function () {
+			window.location.href = 'lana.html';
+		});
+
+		document.getElementById('button6').addEventListener('click', function () {
+			window.location.href = 'lois.html';
+		});
+
+		document.getElementById('button7').addEventListener('click', function () {
+			window.location.href = 'may.html';
+		});
+
+		document.getElementById('button8').addEventListener('click', function () {
+			window.location.href = 'mea.html';
+		});
+
+		document.getElementById('button9').addEventListener('click', function () {
+			window.location.href = 'regular.html';
+		});
+
+		document.getElementById('button10').addEventListener('click', function () {
+			window.location.href = 'skullgirl.html';
+		});
+
+		document.getElementById('button11').addEventListener('click', function () {
+			window.location.href = 'supergirl.html';
+		});
+
+		document.getElementById('button12').addEventListener('click', function () {
+			window.location.href = 'tylee.html';
+		});
+	</script>
+</body>
+
+</html>
